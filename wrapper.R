@@ -1,5 +1,7 @@
 get_quote <- function(image_url) {
   
+  library(readr)
+  
   #source all other function dependencies
   wd <- getwd()
   
