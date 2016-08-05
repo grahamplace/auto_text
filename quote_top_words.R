@@ -31,7 +31,6 @@
 #'        - TIDF = total number of documents / number of documents which contain the word
 #'          - indicates how common a term is across all documents 
 
-setwd("C:/Users/maggie.lou/Dropbox/MyDocuments/NU 2019/Data Mining/Projects/Over/twitter")
 
 #' @param t A dataframe of quotes. 
 #' @return A dataframe of quotes, with the top three words for each quote appended at the end as columns. 
