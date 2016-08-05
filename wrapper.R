@@ -19,7 +19,7 @@ get_quote <- function(image_url) {
   tags <- tag_image(url)
   
   #get quote csv with top words for every quote
-  all_quotes <- read.csv("quotes_final.csv")
+  all_quotes <- read.csv("content.csv")
   
   #find best quote for the image 
   quote <- pair_tag(all_quotes, tags)
